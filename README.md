@@ -25,3 +25,7 @@ This file takes as command-line input a file of listed VAF values with optional 
 ## make_test_script.py
 
 This file runs a test based on the "oneclone.txt" file implemented in the module's native test, and assumes you have the sample file in your current directory. This test includes graphing and calculating capabilities.
+
+## make_results.py
+
+This file parses the ".out" or results files from a given directory and graphs some characteristics of the results, as well as cleaning up results files and outputting them as a new text file.
